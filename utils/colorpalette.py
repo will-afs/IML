@@ -1,0 +1,8 @@
+black='#000000'
+red='#f44336'
+blue='#2986cc'
+green='#8fce00'
+yellow='#ffe400'
+pink='#ff00ff'
+brown='#744700'
+violet='#6a329f'
