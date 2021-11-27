@@ -8,7 +8,7 @@ The dataset is chosen by the students from an open-data portal.</p>
 
 ## Projet documentation
 
-Available (in French) at "docs/Rapport.pdf"
+Available (in French) at "doc/Rapport.pdf"
 
 ## Chosen dataset
 
