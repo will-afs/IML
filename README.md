@@ -3,8 +3,11 @@
 
 Practical works of "Introduction to Machine Learning" lecture at MS SIO, CentraleSupélec.
     
-The goal is to find the most relevant ML algorithm and parameters to predict intel, in a particular case of study.
-The dataset is chosen by the students from an open-data portal.</p>
+From a chosen dataset, the goal is to :
+- preprocess data in order to exploit it, 
+- and then find the most relevant ML algorithm and parameters to predict intel.
+
+The dataset is chosen by the team from an open-data portal.</p>
 
 ## Projet documentation
 
@@ -34,7 +37,10 @@ In a first approcch, we have chosen to only consider the dataset of the 1st part
 
 ## Preprocessing of the dataset
 
-Refer to the documentation and to the file "preprocessing.ipynb"
+Refer to the documentation and to the files :
+- "src/transitory_regimes_correction.ipynb" (working),
+- "src/data_aggregation.ipynb" (working),
+- angle_correction.ipynb (not working - the resolution of the equation to find angle theta (see the project documentation) does not converge)
 
 ## ML alogorithm trained from the datasets
 
@@ -43,9 +49,11 @@ The goal is to train a ML algorithm which could be able to predict the kind of a
 We are in the case of a classification problem.
 
 Several approaches are avaluated :
-- KNN (K Nearest Neighbours) - supervised approach -> see script "KNN_activity_from_acceleration.ipynb"
-- DTC (Decision Tree Classifier) - supervised approach -> see script "DTC_activity_from_acceleration.ipynb"
-- Kmeans - unsupervised approach -> see script "Kmeans_activity_from_acceleration.ipynb"
-- PCA (Principal Component Analysis)
+- KNN (K Nearest Neighbours) - supervised approach -> see script "src/KNN_activity_from_acceleration.ipynb" (working)
+- DTC (Decision Tree Classifier) - supervised approach -> see script "src/DTC_activity_from_acceleration.ipynb" (working)
+
+Other methods can be considered, but are not used here :
+- Kmeans - unsupervised approach -> see script "Kmeans_activity_from_acceleration.ipynb" (not working)
+- PCA (Principal Component Analysis) -> see template script "src/template_scripts/08_PCA_Data_Visualization_Iris_Dataset.ipynb"
 
 
