@@ -40,7 +40,7 @@ In a first approcch, we have chosen to only consider the dataset of the 1st part
 Refer to the documentation and to the files :
 - "src/transitory_regimes_correction.ipynb" (working),
 - "src/data_aggregation.ipynb" (working),
-- angle_correction.ipynb (not working - the resolution of the equation to find angle theta (see the project documentation) does not converge)
+- "src/angle_correction.ipynb" (not working - the resolution of the equation to find angle theta (see the project documentation) does not converge)
 
 ## ML alogorithm trained from the datasets
 
