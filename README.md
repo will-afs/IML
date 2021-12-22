@@ -42,7 +42,7 @@ Refer to the documentation and to the files :
 - "src/data_aggregation.ipynb" (working),
 - "src/angle_correction.ipynb" (not working - the resolution of the equation to find angle theta (see the project documentation) does not converge)
 
-## ML alogorithm trained from the datasets
+## ML algorithm trained from the datasets
 
 The goal is to train a ML algorithm which could be able to predict the kind of activity, according to acceleration measurements.
 
