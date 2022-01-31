@@ -1,5 +1,5 @@
 
-# IML
+# 🧠 IML
 
 Practical works of "Introduction to Machine Learning" lecture at MS SIO, CentraleSupélec.
     
@@ -9,11 +9,11 @@ From a chosen dataset, the goal is to :
 
 The dataset is chosen by the team from an open-data portal.</p>
 
-## Projet documentation
+## 📚 Projet documentation
 
 Available (in French) at "doc/Rapport.pdf"
 
-## Chosen dataset
+## 📊 Chosen dataset
 
 The dataset is accessible at [this link](https://archive.ics.uci.edu/ml/datasets/Activity+Recognition+from+Single+Chest-Mounted+Accelerometer#).
 
@@ -35,14 +35,14 @@ Labels are codified by numbers :
 
 In a first approcch, we have chosen to only consider the dataset of the 1st participant.
 
-## Preprocessing of the dataset
+## ✨ Preprocessing of the dataset
 
 Refer to the documentation and to the files :
 - "src/transitory_regimes_correction.ipynb" (working),
 - "src/data_aggregation.ipynb" (working),
 - "src/angle_correction.ipynb" (not working - the resolution of the equation to find angle theta (see the project documentation) does not converge)
 
-## ML algorithm trained from the datasets
+## 🎓 ML algorithm trained from the datasets
 
 The goal is to train a ML algorithm which could be able to predict the kind of activity, according to acceleration measurements.
 
